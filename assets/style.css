@@ -1,0 +1,169 @@
+window {
+  background-color: #12161c;
+  color: #e8edf4;
+}
+
+.sidebar {
+  background-color: #171c24;
+  border-right: 1px solid #252d39;
+}
+
+.brand-title {
+  font-size: 19px;
+  font-weight: 700;
+  color: #f5f8fc;
+}
+
+.brand-subtitle {
+  font-size: 11px;
+  color: #7f8b9d;
+}
+
+button.nav-button {
+  border-radius: 9px;
+  padding: 8px 10px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+
+button.nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+button.nav-button.active {
+  background-color: rgba(82, 139, 255, 0.22);
+}
+
+button.nav-button label {
+  color: #c3cddb;
+}
+
+button.nav-button.active label {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.title-1 {
+  color: #f8fafc;
+  font-weight: 800;
+}
+
+.muted {
+  color: #8b96a8;
+}
+
+.small {
+  font-size: 11px;
+}
+
+.tiny {
+  font-size: 10px;
+}
+
+.card {
+  background-color: #1a2029;
+  border: 1px solid #262f3d;
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+
+.banner {
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.banner.banner-error {
+  background-color: rgba(255, 92, 92, 0.12);
+  border: 1px solid rgba(255, 92, 92, 0.30);
+}
+
+.banner.banner-paused {
+  background-color: rgba(244, 194, 101, 0.10);
+  border: 1px solid rgba(244, 194, 101, 0.28);
+}
+
+.banner.banner-info {
+  background-color: rgba(82, 139, 255, 0.10);
+  border: 1px solid rgba(82, 139, 255, 0.26);
+}
+
+.badge {
+  background-color: rgba(82, 139, 255, 0.18);
+  color: #9fc3ff;
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.badge-muted {
+  background-color: rgba(255, 255, 255, 0.07);
+  color: #9aa6b8;
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.display-icon {
+  color: #7faaff;
+}
+
+.status-playing {
+  color: #69d59b;
+}
+
+.status-paused {
+  color: #f4c265;
+}
+
+.status-error {
+  color: #ff7b7b;
+}
+
+.status-off {
+  color: #8b96a8;
+}
+
+linkbutton {
+  color: #8ab4ff;
+}
+
+separator {
+  background-color: #2a3340;
+  min-height: 1px;
+}
+
+scrollbar {
+  background-color: transparent;
+}
+
+scrollbar slider {
+  background-color: #394352;
+  border-radius: 8px;
+  min-width: 8px;
+  min-height: 8px;
+}
+
+scrollbar slider:hover {
+  background-color: #4b586b;
+}
+
+.library-tile {
+  background-color: #1a2029;
+  border: 1px solid #262f3d;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.thumb-frame {
+  background-color: #10141a;
+  border-radius: 8px;
+}
+
+.tile-actions button {
+  padding: 2px 6px;
+  min-height: 0;
+}

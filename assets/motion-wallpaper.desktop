@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Motion Wallpaper
+GenericName=Animated Wallpaper
+Comment=Play videos and GIFs as your desktop wallpaper
+Exec=motionwallpaper
+TryExec=motionwallpaper
+Icon=motion-wallpaper
+Terminal=false
+Categories=Utility;Graphics;
+Keywords=wallpaper;video;gif;mpv;desktop;animated;
+StartupNotify=true
+StartupWMClass=motionwallpaper
